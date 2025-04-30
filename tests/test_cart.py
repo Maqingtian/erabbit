@@ -7,8 +7,8 @@ class TestCart:
     def test_add_to_cart(self, session):
         cart_page = CartPage(session)
         response = cart_page.add_to_cart("3678050", 23)
-        print(response)
         assert response["code"] == "1"
+        print ("添加购物车成功")
 
 
 if __name__ == "__main__":

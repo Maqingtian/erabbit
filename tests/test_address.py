@@ -24,6 +24,7 @@ class TestAddress:
         session.address_id = response.get("result", {}).get("id")
         print(session.address_id)
         assert response["code"] == "1"
+        print("添加地址成功")
 
 if __name__ == "__main__":
     pytest.main(["-v", "-s", "tests/test_address.py"])
