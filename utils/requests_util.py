@@ -11,5 +11,5 @@ def send_request(session, method, url, **kwargs):
     :return: requests.Response 对象。
     """
     response = session.request(method, url, **kwargs)
-    # response.raise_for_status()  # 如果响应状态码不是 200，将抛出异常
+    response.raise_for_status()  # 如果响应状态码不是 200，将抛出异常
     return response

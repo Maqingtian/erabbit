@@ -12,7 +12,7 @@ class TestAddress:
             "provinceCode": "120000",
             "cityCode": "120100",
             "countyCode": "120101",
-            "address": "地方撒撒打发",
+            "address": "安徽信息工程学院",
             "postalCode": "111333",
             "addressTags": "1",
             "isDefault": 1,
