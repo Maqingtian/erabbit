@@ -1,0 +1,142 @@
+# Git ignore file for pytest project
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# C extensions
+*.c
+*.h
+*.cpp
+*.cxx
+*.cc
+*.cxx
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.egg-info/
+.egg-info/
+*.egg-info/
+.egg
+lib/
+lib/
+lib64/
+parts/
+sdist/
+wheelhouse/
+*.egg-info/
+*.egg
+.egg
+MANIFEST.in
+.spec
+
+# PyInstaller
+# 通常你会想要忽略这些，除非你正在积极地开发一个打包的应用程序
+build/
+pyinstaller/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox
+.coverage
+.coverage
+nosecrets*
+coverage.xml
+*.cover
+.hypothesis/
+.hypothesis/
+.pytest_cache/
+pytest_cache/
+
+# IDE 配置文件
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.slnk
+*.user
+*.iml
+*.iml
+
+# Environments
+.env
+.env.*
+local.env
+.env.*.local
+.envrc
+*.envrc
+
+# 依赖目录
+node_modules/
+*.log
+yarn.lock
+package-lock.json
+
+# 其他工具
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.swpx
+*~
+*.tmp
+*~
+
+# OS 生成的文件
+.Spotlight-V100/
+.AppleDB/
+.DS_Store
+.__MACOSX/
+Icon
+.AppleDoubler/
+.LSOverride
+
+# Python 环境
+*.py[cod]
+*.py,v
+*.pyw
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.py.class
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyz
+*.pyw
+*.py~
+*.py[cod]
+*.pyw~
+*.py~
+*.pyb~
+*.py~
+*.pyb~
+*.pyc~
+*.pyd~
+*.py~
+*.py~
+*.pyb.bak
+*.py.bak
+*.pyb.bak
+*.pyc.bak
+*.pyd.bak
+*.pyl.bak
+*.pyo.bak
+*.pyw.bak
+*.pyz.bak
